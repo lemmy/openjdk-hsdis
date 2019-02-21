@@ -14,13 +14,13 @@ tools for disassembler).
 Why this repository ?
 ---------------------
 This is just a "repackaging" of original hsdis based on source code from
-http://hg.openjdk.java.net/jdk7u/jdk7u/hotspot/file/tip/src/share/tools/hsdis/
+http://hg.openjdk.java.net/jdk/jdk/hotspot/file/tip/src/share/tools/hsdis/
 
 Build Debian package
 --------------------
 + Download this version of hsdis:
 ```
-git clone git://github.com/drazzib/openjdk-hsdis.git
+git clone git://github.com/lemmy/openjdk-hsdis.git
 cd openjdk-hsdis
 ```
 
@@ -56,7 +56,7 @@ $XJAVA -XX:-PrintAssembly -XX:+PrintSignatureHandlers
 License
 -------
 ```
-Copyright (c) 2008, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2019, Oracle and/or its affiliates. All rights reserved.
 
 This code is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License version 2 only, as
